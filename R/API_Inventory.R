@@ -16,7 +16,7 @@ ui <- dashboardPage(
 		sidebarMenu(tags$style(HTML(".main-sidebar { font-size: 16px; color: white;}")),
 				menuItem(HTML("Data Entry and <br/> Descriptive Statistics"), tabName = "Data"),
 				
-				fileInput(inputId = "file", label = "Please input CSV File", accept='.xlsx'),
+				fileInput(inputId = "file", label = "Please input xlsx File", accept='.xlsx'),
 
 					downloadButton('download1', HTML('<FONT size="3pt">Download Table</FONT></FONT><br>'),class = "butt1"),
 							tags$head(tags$style(".butt1{background-color:white;} .butt1{color: black;}")),
