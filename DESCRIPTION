@@ -1,0 +1,26 @@
+Package: APInvent
+Type: Package
+Title: API Inventory Management Package
+Version: 0.1.0
+Author: Morteza Hajihosseini
+Maintainer: Morteza Hajihosseini <morteza.hajihosseini@appliedpharma.ca>
+Description: PI Inventory Management Package
+License: API
+Encoding: UTF-8
+LazyData: true
+Imports:
+  shiny,
+  shinythemes,
+  gridExtra,
+  ggplot2,
+  ggpubr,
+  shinyalert,
+  shinydashboard,
+  shinydashboardPlus,
+	shinyWidgets,
+	plyr,
+	dplyr,
+	readxl,
+	reshape2,
+	data.table,
+	openxlsx
